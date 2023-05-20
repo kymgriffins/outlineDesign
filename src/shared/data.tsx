@@ -98,38 +98,7 @@ export const headerData: HeaderProps = {
         },
       ],
     },
-    {
-      label: 'About us',
-      href: '/about',
-    },
-    {
-      label: 'Pricing',
-      href: '/pricing',
-    },
-    {
-      label: 'Contact us',
-      href: '/contact',
-    },
-    {
-      label: 'FAQs',
-      href: '/faqs',
-    },
-    {
-      label: 'Privacy Policy',
-      href: '/privacy',
-    },
-    {
-      label: 'Terms & Conditions',
-      href: '/terms',
-    },
-    {
-      label: 'Projects',
-      href: '/blog',
-    },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
+    
   ],
   // actions: [
   //   {
