@@ -120,18 +120,20 @@ export const heroData: HeroProps = {
   title: (
     <>
       Bringing your architectural vision to life,
-      <br /> one building at a time
+      <br /> one outline at a time
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Outline Designs
-        </span>{' '}
-        is a leading construction company specializing in building design and construction of architectural buildings. We utilize <em>Next.js</em> + <em>Tailwind CSS</em> to bring your vision to reality, following industry best practices, sustainability and innovation.
+
+    <span className="hidden md:inline">
+      <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+        Outline Designs
       </span>{' '}
-      We are committed to delivering outstanding results with a focus on quality, functionality and aesthetics.
+      is a premier construction company in the industry, offering exceptional building design and construction services. Our expertise lies in transforming architectural visions into reality, employing industry best practices, sustainability, and innovation.
+    </span>{' '}
+    We are dedicated to delivering exceptional outcomes, prioritizing quality, functionality and aesthetics.
+    
     </>
   ),
   callToAction: {
@@ -622,7 +624,7 @@ export const contentData: ContentProps = {
   header: {
     title: 'Delivering Excellence in Construction',
     subtitle: 'Building Your Dream Home with Precision and Quality',
-    highlight: 'Content',
+    highlight: '',
   },
   content:
     'At Outline Designs Construction, we are dedicated to providing top-notch construction services. Our team of experts ensures that your dream home becomes a reality. With our commitment to precision and quality, we deliver excellence in every project.',
