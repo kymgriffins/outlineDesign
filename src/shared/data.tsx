@@ -323,7 +323,7 @@ export const faqs3Data: FAQsProps = {
 
 
 // FAQS4 data
-const faqs4Data: FAQsProps = {
+export const faqs4Data: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
