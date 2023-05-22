@@ -1,6 +1,6 @@
 {
-  "name": "@onwidget/tailnext",
-  "description": "A template to make your website using Next.js + Tailwind CSS.",
+  "name": "outlinedesigns",
+  "description": "Welcome to Outline Designs, a leading construction company specializing in delivering exceptional building design and construction services. With a strong commitment to quality, functionality and aesthetics, we take pride in transforming architectural visions into reality. Our team of experts combines industry best practices, sustainability and innovation to create outstanding outcomes for our clients.",
   "version": "0.3.0",
   "private": true,
   "scripts": {
