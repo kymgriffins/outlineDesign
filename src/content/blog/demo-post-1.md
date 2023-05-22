@@ -3,7 +3,7 @@ publishDate: 'Nov 02 2022'
 title: 'Nulla amet fugiat qui minim deserunt enim eu cupidatat'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://outlinedesigns.co.ke/static/media/image01.f98c5a5b88231a254204.jpeg'
+image: 'https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
 tags: [markdown, blog]
 ---
 
@@ -36,10 +36,7 @@ The house includes a beautiful outdoor space, featuring a well-maintained garden
 ## Floor Plan
 
 Below is the floor plan of the four-bedroom house:
-<!-- 
-| ![Floor Plan](https://outlinedesigns.co.ke/static/media/image01.f98c5a5b88231a254204.jpeg) |
-|:--:|
-| **Floor Plan** | -->
+
 
 ## Specifications
 

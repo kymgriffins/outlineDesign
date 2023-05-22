@@ -19,10 +19,7 @@ module.exports = {
         protocol: 'https',
         hostname: 'source.unsplash.com',
       },
-      {
-        protocol: 'https',
-        hostname: 'outlinedesigns.co.ke ',
-      },
+     
     ],
   },
   experimental: { appDir: true },

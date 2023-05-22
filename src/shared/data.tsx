@@ -46,6 +46,11 @@ import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import heroImg from '~/assets/images/hero.jpg';
 import hero2Img from '~/assets/images/hero2.jpg';
+import AtticBungalowImg from '~/assets/images/Attic Bungalow 1/Sample 1.jpg';
+import BungalowImg from '~/assets/images/Bungalow 1/1.jpg';
+import MansionImg from '~/assets/images/Maisonette Flat roof 1/1.jpg';
+import RenderImg from '~/assets/images/Render1/101.jpeg'
+import Image2 from '~/assets/images/2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
@@ -148,7 +153,7 @@ export const heroData: HeroProps = {
     href: '/about',
   },
   image: {
-    src: heroImg,
+    src: Image2,
     alt: 'Outline Designs - Bringing your architectural vision to life',
   },
 };
@@ -169,7 +174,7 @@ export const hero2Data: HeroProps = {
     href: '/contact',
   },
   image: {
-    src: hero2Img,
+    src: MansionImg,
     alt: 'Outline Designs - Building Exceptional Structures',
   },
 };
@@ -269,7 +274,7 @@ export const faqsData2: FAQsProps = {
     },
     {
       title: 'What geographical areas does Outline Designs serve?',
-      description: `Outline Designs serves clients in the greater region, including cities A, B and C. If you have a project outside these areas, please contact us and we will determine if we can accommodate your location.`,
+      description: `Outline Designs serves clients in the greater region of Kenya, including cities Nairobi, Kisumu and Mombasa. If you have a project outside these areas, please contact us and we will accommodate your location.`,
     },
   ],
 };
@@ -645,10 +650,10 @@ export const contentData: ContentProps = {
         'We value your time and strive to complete projects within the agreed-upon timeline. Our efficient project management ensures that your dream home is delivered on schedule, without compromising on quality.',
     },
   ],
-  // image: {
-  //   // src: houseImg,
-  //   alt: 'Beautiful Home',
-  // },
+  image: {
+    src: AtticBungalowImg,
+    alt: 'Beautiful Home',
+  },
   isReversed: false,
   isAfterContent: false,
 };
@@ -677,10 +682,10 @@ export const content2Data: ContentProps = {
       title: 'Post-Construction Services',
     },
   ],
-  // image: {
-  //   src: blueprintImg,
-  //   alt: 'Blueprint',
-  // },
+  image: {
+    src: BungalowImg,
+    alt: 'Blueprint',
+  },
   isReversed: true,
   isAfterContent: true,
 };
@@ -712,10 +717,10 @@ export const stepsData: StepsProps = {
       icon: IconCheck,
     },
   ],
-  // image: {
-  //   src: blueprintImg,
-  //   alt: 'Steps image',
-  // },
+  image: {
+    src: 'https://images.unsplash.com/photo-1683818834458-a6e603abd8b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+    alt: 'Steps image',
+  },
 };
 
 // Team data

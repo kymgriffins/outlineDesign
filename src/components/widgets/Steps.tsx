@@ -45,15 +45,19 @@ const Steps = () => {
             ))}
         </div>
         <div className="relative">
-          {image && (
-            <Image
-              src={image.src}
-              width={400}
-              height={768}
-              alt={image.alt}
-              className="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
-            />
-          )}
+        {image && (
+ 
+ <Image
+ src={image.src}
+ width= {1000}
+ height={1000}
+ alt={image.alt}
+//  className="inset-0 w-full rounded-md object-none object-top shadow-lg  md:absolute md:h-full"
+/>
+)}
+
+
+
         </div>
       </div>
     </section>
