@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'Outline Designs',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://outlinedesigns.co.ke',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Outline Designs - Construction Industry in Kenya',
+  description: 'Outline Designs is a leading construction company in Kenya, offering architectural design, interior design, project management and construction consulting services.',
 };

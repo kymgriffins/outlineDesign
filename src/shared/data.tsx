@@ -323,11 +323,11 @@ export const faqs3Data: FAQsProps = {
 
 
 // FAQS4 data
-export const faqs4Data: FAQsProps = {
+const faqs4Data: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Praesent rutrum purus in sem blandit, in consectetur mi pharetra. Ut sagittis sapien sit amet congue cursus. Nulla eu elementum ex, tincidunt semper nisi.',
+      'Design and Build with Outline Designs',
     highlight: 'FAQS',
     position: 'center',
   },
@@ -339,84 +339,70 @@ export const faqs4Data: FAQsProps = {
       },
       items: [
         {
-          title: 'What do I need to start?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What services does Outline Designs offer?',
+          description: `Outline Designs offers a wide range of services in the construction industry, including architectural design, interior design, project management, and construction consulting.`,
         },
         {
-          title: 'How to install the NextJS + Tailwind CSS template?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'How can I contact Outline Designs?',
+          description: `You can contact Outline Designs by visiting our website and filling out the contact form, or by calling our customer service hotline at [phone number]. We are available to assist you during our business hours from Monday to Friday, 9am to 5pm.`,
         },
         {
-          title: "What's something that you completely don't understand?",
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'Does Outline Designs provide custom design solutions?',
+          description: `Yes, Outline Designs specializes in providing customized design solutions tailored to meet the unique needs and preferences of our clients. Our team of experienced architects and designers will work closely with you to create a design that reflects your vision and objectives.`,
         },
         {
-          title: "What's an example of when you changed your mind?",
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
-        },
-        {
-          title: 'What is something that you would really like to try again?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-        },
-        {
-          title: 'If you could only ask one question to each person you meet, what would that question be?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'What construction projects has Outline Designs completed?',
+          description: `Outline Designs has successfully completed a wide range of construction projects, including residential buildings, commercial complexes, office spaces, and institutional facilities. You can view our portfolio on our website to see examples of our past projects.`,
         },
       ],
     },
     {
       link: {
-        label: 'Plans, prices and payments',
+        label: 'Services and Pricing',
         href: '/tab2',
       },
       items: [
         {
-          title: 'Which plan is best for me?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What factors determine the cost of a construction project?',
+          description: `The cost of a construction project depends on various factors, such as the size and complexity of the project, the materials used, the location, and any additional features or specifications. Our team at Outline Designs will assess your project requirements and provide you with a detailed cost estimate.`,
         },
         {
-          title: 'What are my payment options?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'Does Outline Designs offer fixed-price contracts?',
+          description: `Yes, Outline Designs offers fixed-price contracts for certain types of construction projects. This provides our clients with a clear understanding of the total project cost and helps in budget planning. Contact us to discuss your specific project and pricing options.`,
         },
         {
-          title: 'How do I change my plan to a different one?',
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'Can Outline Designs assist with obtaining permits and approvals?',
+          description: `Yes, Outline Designs can assist you with the permit and approval process for your construction project. Our team is well-versed in the local regulations and requirements and will guide you through the necessary steps to obtain the required permits and approvals.`,
         },
         {
-          title: 'What happen at the end of my free trial?',
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
-        },
-        {
-          title: 'Can I import data from other tools?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-        },
-        {
-          title: 'Can I cancel my plan at any time?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'What is the typical timeline for completing a construction project?',
+          description: `The timeline for completing a construction project can vary depending on the size and complexity of the project. Outline Designs will provide you with a project timeline during the initial consultation, taking into account factors such as design development, permitting, procurement, and construction duration.`,
         },
       ],
     },
     {
       link: {
-        label: 'Others',
+        label: 'Collaboration and Support',
         href: '/tab3',
       },
       items: [
         {
-          title: 'How do I download the template?',
-          description: `In ullamcorper pellentesque ante, nec commodo ex euismod viverra. Phasellus facilisis, justo a bibendum pellentesque, nibh est egestas lectus, volutpat ullamcorper arcu ante ac dolor.`,
+          title: 'How does the collaboration process work with Outline Designs?',
+          description: `At Outline Designs, we follow a collaborative approach throughout the design and construction process. We will involve you in key decision-making stages, seek your input and feedback, and keep you updated on the progress
+
+ of your project. Our goal is to ensure that your vision is translated into a successful construction project.`,
         },
         {
-          title: 'How do I customize the template?',
-          description: `Pellentesque semper euismod malesuada. Curabitur quis lectus tortor. Aliquam efficitur pretium tellus, ut sagittis turpis dignissim eget. Etiam scelerisque nec risus eget iaculis. Nunc maximus metus id felis dapibus, sed ullamcorper sapien faucibus.`,
+          title: 'What support does Outline Designs provide during the construction phase?',
+          description: `During the construction phase, Outline Designs provides on-site supervision and project management to ensure that the construction is carried out according to the approved design and specifications. We will also coordinate with contractors and suppliers, conduct regular inspections, and address any issues that may arise.`,
         },
         {
-          title: 'Does the template come with any tutorials or instructions?',
-          description: `Sed sagittis arcu suscipit auctor suscipit. Nam dapibus risus vitae tristique fermentum. In egestas turpis elit, id gravida diam dictum eu. Ut dictum libero ut rhoncus egestas. Ut sit amet tortor blandit, faucibus tellus vitae, consequat purus. Nullam id odio enim.`,
+          title: 'Does Outline Designs offer post-construction support?',
+          description: `Yes, Outline Designs offers post-construction support to address any issues or concerns that may arise after the completion of the project. Our team will work with you to resolve any warranty-related matters and ensure your satisfaction with the final outcome.`,
         },
         {
-          title: 'Are there any additional fees or charges for using the template?',
-          description: `Fusce efficitur, augue et vulputate pharetra, augue turpis viverra turpis, id tempor purus eros sed erat. Curabitur blandit eget sem vitae malesuada.`,
+          title: 'Can Outline Designs work with other professionals or contractors?',
+          description: `Yes, Outline Designs has experience collaborating with various professionals and contractors in the construction industry. We can work with your preferred team or recommend trusted partners from our network to ensure a smooth and coordinated construction process.`,
         },
       ],
     },
