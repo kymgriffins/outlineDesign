@@ -21,7 +21,8 @@ import {
   IconMessages,
   IconPhoneCall,
   IconRocket,
-  IconRss,
+  IconRss, IconHammer, IconHome, IconTool, IconTrendingUp, IconUsers, IconBuildingSkyscraper, IconBrandEnvato
+
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -544,38 +545,48 @@ export const featuresData3: FeaturesProps = {
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      title: 'Architectural Design',
+      description: 'We create stunning architectural designs that blend functionality and aesthetics seamlessly.',
+      icon: IconHome,
     },
     {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      title: 'Efficient Project Management',
+      description: 'Our team ensures smooth project execution, adhering to timelines and budgets.',
+      icon: IconTrendingUp,
     },
     {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      title: 'Customized Building Solutions',
+      description: 'Tailored construction plans that meet your specific requirements and vision.',
+      icon: IconBuildingSkyscraper,
     },
     {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      title: 'Sustainable Green Building',
+      description: 'Embrace eco-friendly practices with our green building solutions.',
+      icon: IconBrandEnvato,
     },
     {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
+      title: 'Cutting-edge Technology',
+      description: 'Incorporating the latest construction technologies for superior results.',
+      icon: IconTool,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Quality Craftsmanship',
+      description: 'Uncompromising dedication to delivering top-notch craftsmanship in every project.',
+      icon: IconHammer,
+    },
+    {
+      title: 'Collaborative Approach',
+      description: 'We collaborate closely with clients to ensure their vision is brought to life.',
+      icon: IconUsers,
+    },
+    {
+      title: 'Innovative Solutions',
+      description: 'Constantly exploring new ideas and approaches to improve our services.',
       icon: IconBulb,
     },
   ],
 };
+
 // Content data
 export const contentData: ContentProps = {
   header: {
