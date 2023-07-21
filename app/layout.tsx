@@ -1,5 +1,6 @@
+
 import { Metadata } from 'next';
-import { useEffect } from 'react';
+import { useEffect, } from 'react';
 import { SITE } from '~/config.js';
 
 import Providers from '~/components/atoms/Providers';
