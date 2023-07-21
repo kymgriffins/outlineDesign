@@ -28,9 +28,9 @@ const TRACKING_ID = "G-KNZS361QQP"; // OUR_TRACKING_ID
   ReactGA.initialize(TRACKING_ID);
 
 export default function RootLayout({ children }: LayoutProps) {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // }, []);
   return (
     <html lang="en" className={`motion-safe:scroll-smooth 2xl:text-[24px] ${customFont.variable} font-sans`}>
 <head>

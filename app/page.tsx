@@ -33,7 +33,7 @@ export default function Page() {
     <>
      
       <Hero data={heroData} />
-      {/* <SocialProof {...socialProofData} /> */}
+      <SocialProof {...socialProofData} />
       <Features3 {...featuresData} />
       <Content {...contentData} />
       <Content {...content2Data} />
