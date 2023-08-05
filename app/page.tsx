@@ -13,7 +13,7 @@ import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 import {
-  callToActionData,
+  // callToActionData,
   content2Data,
   contentData,
   faqsData2,
@@ -33,7 +33,7 @@ export default function Page() {
     <>
      
       <Hero data={heroData} />
-      {/* <SocialProof {...socialProofData} /> */}
+      <SocialProof {...socialProofData} />
       <Features3 {...featuresData} />
       <Content {...contentData} />
       <Content {...content2Data} />

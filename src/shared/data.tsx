@@ -21,7 +21,8 @@ import {
   IconMessages,
   IconPhoneCall,
   IconRocket,
-  IconRss,
+  IconRss, IconHammer, IconHome, IconTool, IconTrendingUp, IconUsers, IconBuildingSkyscraper, IconBrandEnvato
+
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -61,7 +62,7 @@ import typescriptLogo from '~/assets/images/typescript-logo.png';
 export const announcementData: AnnouncementProps = {
   title: 'Outline Designs',
   callToAction: {
-    text: 'This template is made with Next.js 13 using the new App Router »',
+    text: 'Outline Designs Construction Company »',
     href: '',
   },
   callToAction2: {
@@ -184,24 +185,29 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://nextjs.org/',
+      link: 'https://twitter.com/',
       src: nextJsLogo,
-      alt: 'NextJs Logo',
+      alt: 'Twitter',
     },
     {
-      link: 'https://react.dev/',
+      link: 'https://tiktok.com/',
       src: reactLogo,
-      alt: 'React Logo',
+      alt: 'Tiktok',
     },
     {
-      link: 'https://tailwindcss.com/',
+      link: 'https://linkedIn.com/',
       src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
+      alt: 'LinkedIn  ',
     },
     {
-      link: 'https://www.typescriptlang.org/',
+      link: 'https://www.facebook.com/',
       src: typescriptLogo,
-      alt: 'Typescript Logo',
+      alt: 'Facebook ',
+    },
+    {
+      link: 'https://www.instagram.com/',
+      src: typescriptLogo,
+      alt: 'Instagram ',
     },
   ],
 };
@@ -409,45 +415,6 @@ export const faqs4Data: FAQsProps = {
   ],
 };
 
-// CallToAction data
-export const callToActionData: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
-  subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
-  items: [
-    {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
-    {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
-    },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
-    },
-  ],
-};
 
 // CallToAction2 data
 export const callToActionData2: CallToActionProps = {
@@ -578,38 +545,48 @@ export const featuresData3: FeaturesProps = {
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      title: 'Architectural Design',
+      description: 'We create stunning architectural designs that blend functionality and aesthetics seamlessly.',
+      icon: IconHome,
     },
     {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      title: 'Efficient Project Management',
+      description: 'Our team ensures smooth project execution, adhering to timelines and budgets.',
+      icon: IconTrendingUp,
     },
     {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      title: 'Customized Building Solutions',
+      description: 'Tailored construction plans that meet your specific requirements and vision.',
+      icon: IconBuildingSkyscraper,
     },
     {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      title: 'Sustainable Green Building',
+      description: 'Embrace eco-friendly practices with our green building solutions.',
+      icon: IconBrandEnvato,
     },
     {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
+      title: 'Cutting-edge Technology',
+      description: 'Incorporating the latest construction technologies for superior results.',
+      icon: IconTool,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Quality Craftsmanship',
+      description: 'Uncompromising dedication to delivering top-notch craftsmanship in every project.',
+      icon: IconHammer,
+    },
+    {
+      title: 'Collaborative Approach',
+      description: 'We collaborate closely with clients to ensure their vision is brought to life.',
+      icon: IconUsers,
+    },
+    {
+      title: 'Innovative Solutions',
+      description: 'Constantly exploring new ideas and approaches to improve our services.',
       icon: IconBulb,
     },
   ],
 };
+
 // Content data
 export const contentData: ContentProps = {
   header: {
