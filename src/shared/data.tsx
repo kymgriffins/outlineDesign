@@ -1,28 +1,33 @@
 import {
   IconArrowDown,
   IconArrowsRightLeft,
+  IconBrandEnvato,
   IconBrandFacebook,
   IconBrandGithub,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandTailwind,
   IconBrandTwitter,
+  IconBrandTwitterFilled,
+  IconBuildingSkyscraper,
   IconBulb,
   IconCheck,
   IconChevronDown,
   IconClock,
   IconComponents,
   IconDownload,
+  IconHammer,
   IconHeadset,
   IconHelp,
+  IconHome,
   IconListCheck,
   IconMail,
   IconMapPin,
   IconMessages,
   IconPhoneCall,
   IconRocket,
-  IconRss, IconHammer, IconHome, IconTool, IconTrendingUp, IconUsers, IconBuildingSkyscraper, IconBrandEnvato
-
+  IconRss,
+  IconTool, IconTrendingUp, IconUsers
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -43,20 +48,25 @@ import {
   TestimonialProps,
 } from './types';
 
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
-import heroImg from '~/assets/images/hero.jpg';
-import hero2Img from '~/assets/images/hero2.jpg';
+import Image2 from '~/assets/images/2.jpg';
 import AtticBungalowImg from '~/assets/images/Attic Bungalow 1/Sample 1.jpg';
 import BungalowImg from '~/assets/images/Bungalow 1/1.jpg';
 import MansionImg from '~/assets/images/Maisonette Flat roof 1/1.jpg';
-import RenderImg from '~/assets/images/Render1/101.jpeg'
-import Image2 from '~/assets/images/2.jpg';
+import RenderImg from '~/assets/images/Render1/101.jpeg';
+import cameraBackImg from '~/assets/images/camera-back.jpg';
+import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import gasImg from '~/assets/images/gas.jpg';
+import heroImg from '~/assets/images/hero.jpg';
+import hero2Img from '~/assets/images/hero2.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
+import TwitterIcon from '~/assets/images/twitter.png'
+import LinkedInIcon from '~/assets/images/linkedin.png'
+import FacebookIcon from '~/assets/images/meta.png'
+import TiktokIcon from '~/assets/images/tiktok.png'
+import InstagramIcon from '~/assets/images/ig.png'
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
@@ -186,27 +196,27 @@ export const socialProofData: SocialProofProps = {
   images: [
     {
       link: 'https://twitter.com/',
-      src: nextJsLogo,
+      src: TwitterIcon,
       alt: 'Twitter',
     },
     {
       link: 'https://tiktok.com/',
-      src: reactLogo,
+      src: TiktokIcon,
       alt: 'Tiktok',
     },
     {
       link: 'https://linkedIn.com/',
-      src: tailwindCssLogo,
+      src: LinkedInIcon,
       alt: 'LinkedIn  ',
     },
     {
       link: 'https://www.facebook.com/',
-      src: typescriptLogo,
+      src: FacebookIcon,
       alt: 'Facebook ',
     },
     {
       link: 'https://www.instagram.com/',
-      src: typescriptLogo,
+      src: InstagramIcon,
       alt: 'Instagram ',
     },
   ],
@@ -416,17 +426,17 @@ export const faqs4Data: FAQsProps = {
 };
 
 
-// CallToAction2 data
-export const callToActionData2: CallToActionProps = {
-  title: 'Still have questions?',
-  subtitle:
-    'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
-  callToAction: {
-    text: 'Contact us',
-    href: '/contact',
-    btnType: 'primary',
-  },
-};
+// // CallToAction2 data
+// export const callToActionData2: CallToActionProps = {
+//   title: 'Still have questions?',
+//   subtitle:
+//     'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
+//   callToAction: {
+//     text: 'Contact us',
+//     href: '/contact',
+//     btnType: 'primary',
+//   },
+// };
 
 export const featuresData: FeaturesProps = {
   header: {
@@ -1029,20 +1039,20 @@ export const comparisonData: ComparisonProps = {
 export const statsData: StatsProps = {
   items: [
     {
-      title: 13269,
-      description: 'Downloads',
+      title: 13,
+      description: 'Projects Completed',
     },
     {
-      title: 24.8,
-      description: 'Stars',
+      title: 98.7,
+      description: 'Client Satisfaction',
     },
     {
-      title: 1767.77,
-      description: 'Forks',
+      title: 40000,
+      description: 'Square Feet Constructed',
     },
     {
-      title: 484000,
-      description: 'Users',
+      title: 12,
+      description: 'Happy Customers',
     },
   ],
 };

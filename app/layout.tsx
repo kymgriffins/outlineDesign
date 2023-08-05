@@ -10,6 +10,8 @@ import Footer2 from '~/components/widgets/Footer2';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
+import Logo from '~/components/atoms/Logo';
+
 // import ReactGA from 'react-ga';
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -50,6 +52,8 @@ export default function RootLayout({ children }: LayoutProps) {
     <meta name="twitter:title" content="Outline Designs - Premier Construction Company" />
     <meta name="twitter:description" content="Outline Designs is a premier construction company offering exceptional building design and construction services. Transforming architectural visions into reality with industry best practices, sustainability, and innovation." />
     <meta name="twitter:image" content="https://example.com/path-to-image.jpg" />
+     {/* Logo */}
+     {/* <link rel="icon" href={Logo} type="image/png" /> */}
     <title>Outline Designs - Premier Construction Company</title>
 </head>
 
