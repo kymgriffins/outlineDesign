@@ -63,7 +63,7 @@ export default function RootLayout({ children }: LayoutProps) {
         /> */}
          {/* <link rel="icon" href="../src/assets/images/Logo.png" type="image/x-icon" /> */}
          {/* <meta name="icon" content="../src/assets/images/Logo.png" /> */}
-         <meta name="icon" content="https://th.bing.com/th/id/OIP.FZPgAaD8sslxc2lklYRZ0wHaE0?pid=ImgDet&rs=1" />
+         <meta name="icon" content={favicon.src} />
          <link rel="shortcut icon" href={favicon.src} />
 
     <title>Outline Designs - Premier Construction Company</title>
