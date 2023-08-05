@@ -1,6 +1,6 @@
 
 import { Metadata } from 'next';
-import { useEffect, } from 'react';
+// import { useEffect, } from 'react';
 import { SITE } from '~/config.js';
 
 import Providers from '~/components/atoms/Providers';
@@ -10,7 +10,7 @@ import Footer2 from '~/components/widgets/Footer2';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
 export interface LayoutProps {
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
 };
-const TRACKING_ID = "G-KNZS361QQP"; // OUR_TRACKING_ID
-  ReactGA.initialize(TRACKING_ID);
+// const TRACKING_ID = "G-KNZS361QQP"; // OUR_TRACKING_ID
+//   ReactGA.initialize(TRACKING_ID);
 
 export default function RootLayout({ children }: LayoutProps) {
   // useEffect(() => {
