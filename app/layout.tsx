@@ -2,7 +2,7 @@
 import { Metadata } from 'next';
 // import { useEffect, } from 'react';
 import { SITE } from '~/config.js';
-
+import Head from 'next/head'; // Import the Head component
 import Providers from '~/components/atoms/Providers';
 import Header from '~/components/widgets/Header';
 import Announcement from '~/components/widgets/Announcement';
@@ -37,38 +37,51 @@ export default function RootLayout({ children }: LayoutProps) {
   console.log("FAVICON",favicon.src)
   return (
     <html lang="en" className={`motion-safe:scroll-smooth 2xl:text-[24px] ${customFont.variable} font-sans`}>
-<head>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Outline Designs is a premier construction company offering exceptional building design and construction services. Transforming architectural visions into reality with industry best practices, sustainability, and innovation." />
-    <meta name="keywords" content="Outline Designs, construction company, building design, construction services, sustainability, jenga, kenya, architectural firm , innovation" />
-    <meta name="author" content="Outline Designs" />
-    <meta name="robots" content="index, follow" />
-    <meta name="revisit-after" content="7 days" />
-    <meta name="language" content="English" />
-    <meta name="og:title" content="Outline Designs - Premier Construction Company" />
-    <meta name="og:description" content="Outline Designs is a  construction company offering exceptional building design and construction services. Transforming architectural visions into reality with industry best practices, sustainability, and innovation." />
-    <meta name="og:image" content="https://example.com/path-to-image.jpg" />
-    <meta name="og:url" content="https://example.com" />
-    <meta name="og:type" content="website" />
-    <meta name="twitter:title" content="Outline Designs - Premier Construction Company" />
-    <meta name="twitter:description" content="Outline Designs is a premier construction company offering exceptional building design and construction services. Transforming architectural visions into reality with industry best practices, sustainability, and innovation." />
-    <meta name="twitter:image" content="https://example.com/path-to-image.jpg" />
-     {/* Logo */}
-     {/* <Image
-          src={LogoIcon} // Replace '/path-to-logo-image.png' with the actual path of your logo image in the 'public' directory
-          alt="Outline Designs Logo"
-          width={40} // Set the desired width of your logo
-          height={40} // Set the desired height of your logo
-        /> */}
-         {/* <link rel="icon" href="../src/assets/images/Logo.png" type="image/x-icon" /> */}
-         {/* <meta name="icon" content="../src/assets/images/Logo.png" /> */}
-         <meta name="icon" content={favicon.src} />
-         <link rel="shortcut icon" href={favicon.src} />
+ <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Outline Designs - Premier Construction Company</title>
-</head>
+        {/* SEO Title */}
+        <title>Outline Designs - Premier Construction Company | Bringing Architectural Visions to Life</title>
 
+        {/* SEO Meta Tags */}
+        <meta
+          name="description"
+          content="Outline Designs is a premier construction company in Kenya, dedicated to bringing architectural visions to life. With a wealth of expertise and a commitment to excellence, we offer top-notch construction services, architectural design, interior design, and project management. Transform your dreams into reality with our sustainable and innovative approach, making us the leading choice for construction projects in Kenya and beyond."
+        />
+        <meta
+          name="keywords"
+          content="Outline Designs, construction company, building design, construction services, sustainability, jenga, kenya, architectural firm, innovation"
+        />
+        <meta name="author" content="Outline Designs" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="language" content="English" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Outline Designs - Premier Construction Company" />
+        <meta
+          property="og:description"
+          content="Outline Designs is a premier construction company in Kenya, dedicated to bringing architectural visions to life. With a wealth of expertise and a commitment to excellence, we offer top-notch construction services, architectural design, interior design, and project management. Transform your dreams into reality with our sustainable and innovative approach, making us the leading choice for construction projects in Kenya and beyond."
+        />
+        <meta property="og:image" content="https://example.com/path-to-image.jpg" /> {/* Replace with actual image URL */}
+        <meta property="og:url" content="https://outlinedesigns.co.ke" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:title" content="Outline Designs - Premier Construction Company" />
+        <meta
+          name="twitter:description"
+          content="Outline Designs is a premier construction company in Kenya, dedicated to bringing architectural visions to life. With a wealth of expertise and a commitment to excellence, we offer top-notch construction services, architectural design, interior design, and project management. Transform your dreams into reality with our sustainable and innovative approach, making us the leading choice for construction projects in Kenya and beyond."
+        />
+        <meta name="twitter:image" content="https://example.com/path-to-image.jpg" /> {/* Replace with actual image URL */}
+
+        {/* Favicon */}
+        <link rel="shortcut icon" href={favicon.src} />
+
+        {/* Logo */}
+        <link rel="icon" href={favicon.src} />
+      </Head>
       <body className="bg-white tracking-tight text-gray-900 antialiased dark:bg-slate-900 dark:text-slate-300">
         <Providers>
         <Analytics />
