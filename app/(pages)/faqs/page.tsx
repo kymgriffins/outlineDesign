@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 import CallToAction from '~/components/widgets/CallToAction';
 import FAQs4 from '~/components/widgets/FAQs4';
-import { callToActionData2, faqs4Data } from '~/shared/data';
+import {  faqs4Data } from '~/shared/data';
 
 export const metadata: Metadata = {
   title: 'FAQs',
