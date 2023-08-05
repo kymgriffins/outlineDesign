@@ -11,7 +11,8 @@ import { Analytics } from '@vercel/analytics/react';
 import { Inter as CustomFont } from 'next/font/google';
 import '~/assets/styles/base.css';
 import Logo from '~/components/atoms/Logo';
-
+import favicon from '~/assets/images/Logo.png'
+import Image from 'next/image';
 // import ReactGA from 'react-ga';
 const customFont = CustomFont({ subsets: ['latin'], variable: '--font-custom' });
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps) {
   // useEffect(() => {
   //   ReactGA.pageview(window.location.pathname + window.location.search);
   // }, []);
+  console.log("FAVICON",favicon.src)
   return (
     <html lang="en" className={`motion-safe:scroll-smooth 2xl:text-[24px] ${customFont.variable} font-sans`}>
 <head>
@@ -53,7 +55,17 @@ export default function RootLayout({ children }: LayoutProps) {
     <meta name="twitter:description" content="Outline Designs is a premier construction company offering exceptional building design and construction services. Transforming architectural visions into reality with industry best practices, sustainability, and innovation." />
     <meta name="twitter:image" content="https://example.com/path-to-image.jpg" />
      {/* Logo */}
-     {/* <link rel="icon" href={Logo} type="image/png" /> */}
+     {/* <Image
+          src={LogoIcon} // Replace '/path-to-logo-image.png' with the actual path of your logo image in the 'public' directory
+          alt="Outline Designs Logo"
+          width={40} // Set the desired width of your logo
+          height={40} // Set the desired height of your logo
+        /> */}
+         {/* <link rel="icon" href="../src/assets/images/Logo.png" type="image/x-icon" /> */}
+         {/* <meta name="icon" content="../src/assets/images/Logo.png" /> */}
+         <meta name="icon" content="https://th.bing.com/th/id/OIP.FZPgAaD8sslxc2lklYRZ0wHaE0?pid=ImgDet&rs=1" />
+         <link rel="shortcut icon" href={favicon.src} />
+
     <title>Outline Designs - Premier Construction Company</title>
 </head>
 
