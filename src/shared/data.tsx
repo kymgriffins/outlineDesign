@@ -93,6 +93,10 @@ export const headerData: HeaderProps = {
           href: '/about',
         },
         {
+          label: 'Projects',
+          href: '/blog',
+        },
+        {
           label: 'Pricing',
           href: '/pricing',
         },
@@ -104,6 +108,7 @@ export const headerData: HeaderProps = {
           label: 'FAQs',
           href: '/faqs',
         },
+
         {
           label: 'Privacy Policy',
           href: '/privacy',
