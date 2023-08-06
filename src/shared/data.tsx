@@ -140,37 +140,34 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Bringing your architectural vision to life,
+      Transforming Your Architectural Vision into Reality,
       <br /> one outline at a time
     </>
   ),
   subtitle: (
     <>
-
-    <span className="hidden md:inline">
-      <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-        Outline Designs
+      <span className="hidden md:inline">
+        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+          Outline Designs
+        </span>{' '}
+        is a premier construction company in Kenya, offering exceptional building design and construction services. Our expertise lies in transforming architectural visions into reality, employing industry best practices, sustainability and innovation.
       </span>{' '}
-      is a premier construction company in the industry, offering exceptional building design and construction services. Our expertise lies in transforming architectural visions into reality, employing industry best practices, sustainability, and innovation.
-    </span>{' '}
-    We are dedicated to delivering exceptional outcomes, prioritizing quality, functionality and aesthetics.
-    
+      We are dedicated to delivering exceptional outcomes, prioritizing quality, functionality and aesthetics.
     </>
   ),
   callToAction: {
-    text: 'Get started',
-    href: '/contact',
-    icon: IconDownload,
+    text: 'View Projects',
+    href: '/blog',
     targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Learn More',
     href: '/about',
   },
   image: {
     src: Image2,
-    alt: 'Outline Designs - Bringing your architectural vision to life',
+    alt: 'Outline Designs - Transforming Your Architectural Vision into Reality',
   },
 };
 
@@ -178,15 +175,15 @@ export const heroData: HeroProps = {
 export const hero2Data: HeroProps = {
   title: 'Building Exceptional Structures with a Dedicated Team',
   subtitle:
-    'At Outline Designs, we believe that great companies are made by great people. Our team of architects, engineers and construction professionals is passionate about creating exceptional architectural buildings that inspire and endure. We are committed to delivering projects of the highest quality, craftsmanship and innovation.',
+    'At Outline Designs, we believe that great companies are made by great people. Our team of architects, engineers and construction professionals in Kenya is passionate about creating exceptional architectural buildings that inspire and endure. We are committed to delivering projects of the highest quality, craftsmanship and innovation.',
   callToAction: {
-    text: 'View our projects',
-    href: '/blogs',
+    text: 'View Our Projects',
+    href: '/projects',
     targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Contact us',
+    text: 'Contact Us',
     href: '/contact',
   },
   image: {
@@ -194,7 +191,6 @@ export const hero2Data: HeroProps = {
     alt: 'Outline Designs - Building Exceptional Structures',
   },
 };
-
 
 // SocialProof data
 export const socialProofData: SocialProofProps = {
@@ -227,43 +223,41 @@ export const socialProofData: SocialProofProps = {
   ],
 };
 
-// FAQS data
-// FAQs data 1
+// FAQs data
 export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Find answers to common questions about our building design and construction services.',
-    highlight: 'FAQS',
+      'Find answers to common questions about our building design and construction services in Kenya.',
+    highlight: 'FAQs',
   },
   items: [
     {
-      title: 'What services does Outline Designs provide?',
+      title: 'What Services Does Outline Designs Provide?',
       description: `Outline Designs specializes in building design and construction of architectural buildings. We offer a wide range of services, including architectural design, structural engineering, project management and construction.`,
     },
     {
-      title: 'What types of buildings do you design and construct?',
-      description: `We design and construct various types of architectural buildings, including residential homes, commercial complexes, office buildings and institutional structures such as schools and hospitals.`,
+      title: 'What Types of Buildings Do You Design and Construct?',
+      description: `We design and construct various types of architectural buildings, including villas, mansions, attics and bungalows for residential homes, commercial complexes, office buildings and institutional structures such as schools and hospitals.`,
     },
     {
-      title: 'How experienced is Outline Designs in the construction industry?',
-      description: `With over 10 years of experience in the construction industry, Outline Designs has successfully completed numerous projects of varying scales and complexities. Our team of architects, engineers and construction professionals brings extensive expertise to every project.`,
+      title: 'How Experienced Is Outline Designs in the Construction Industry?',
+      description: `With over 10 years of experience in the construction industry in Kenya, Outline Designs has successfully completed numerous projects of varying scales and complexities. Our team of architects, engineers and construction professionals brings extensive expertise to every project.`,
     },
     {
-      title: 'What sets Outline Designs apart from other construction companies?',
+      title: 'What Sets Outline Designs Apart from Other Construction Companies?',
       description: `At Outline Designs, we pride ourselves on our commitment to quality, attention to detail and customer satisfaction. We strive to deliver innovative designs, efficient construction processes and timely project completion. Our collaborative approach ensures that clients' vision and requirements are met with precision.`,
     },
     {
-      title: 'How does Outline Designs ensure the quality of construction?',
+      title: 'How Does Outline Designs Ensure the Quality of Construction?',
       description: `We adhere to strict quality control measures at every stage of the construction process. Our team conducts regular inspections, uses high-quality materials and collaborates with reputable suppliers and contractors to ensure the highest standards of craftsmanship and durability.`,
     },
     {
-      title: 'Does Outline Designs provide post-construction support?',
+      title: 'Does Outline Designs Provide Post-Construction Support?',
       description: `Yes, we provide comprehensive post-construction support, including maintenance services, repairs and renovations. Our goal is to build long-lasting relationships with our clients and assist them with any future needs.`,
     },
   ],
 };
-
 // FAQs data 2
 export const faqsData2: FAQsProps = {
   header: {
@@ -311,7 +305,7 @@ export const faqs3Data: FAQsProps = {
   items: [
     {
       title: 'What factors determine the cost of construction?',
-      description: 'The cost of construction is influenced by various factors such as the size and complexity of the project, the quality of materials used, the location andthe timeline for completion. Our team can provide a detailed cost estimate based on your specific requirements.',
+      description: 'The cost of construction is influenced by various factors such as the size and complexity of the project, the quality of materials used, the location and the timeline for completion. Our team can provide a detailed cost estimate based on your specific requirements.',
     },
     {
       title: 'Do you offer fixed-price contracts?',
@@ -361,11 +355,11 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: 'What services does Outline Designs offer?',
-          description: `Outline Designs offers a wide range of services in the construction industry, including architectural design, interior design, project management, and construction consulting.`,
+          description: `Outline Designs offers a wide range of services in the construction industry, including architectural design, interior design, project management and construction consulting.`,
         },
         {
           title: 'How can I contact Outline Designs?',
-          description: `You can contact Outline Designs by visiting our website and filling out the contact form, or by calling our customer service hotline at [phone number]. We are available to assist you during our business hours from Monday to Friday, 9am to 5pm.`,
+          description: `You can contact Outline Designs by visiting our website and filling out the contact form, or by calling our customer service hotline at [phone number]. We are available to assist you during our business hours from Monday to Friday, 9 am to 5 pm.`,
         },
         {
           title: 'Does Outline Designs provide custom design solutions?',
@@ -373,7 +367,7 @@ export const faqs4Data: FAQsProps = {
         },
         {
           title: 'What construction projects has Outline Designs completed?',
-          description: `Outline Designs has successfully completed a wide range of construction projects, including residential buildings, commercial complexes, office spaces, and institutional facilities. You can view our portfolio on our website to see examples of our past projects.`,
+          description: `Outline Designs has successfully completed a wide range of construction projects, including residential buildings, commercial complexes, office spaces and institutional facilities. You can view our portfolio on our website to see examples of our past projects.`,
         },
       ],
     },
@@ -385,7 +379,7 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: 'What factors determine the cost of a construction project?',
-          description: `The cost of a construction project depends on various factors, such as the size and complexity of the project, the materials used, the location, and any additional features or specifications. Our team at Outline Designs will assess your project requirements and provide you with a detailed cost estimate.`,
+          description: `The cost of a construction project depends on various factors, such as the size and complexity of the project, the materials used, the location and any additional features or specifications. Our team at Outline Designs will assess your project requirements and provide you with a detailed cost estimate.`,
         },
         {
           title: 'Does Outline Designs offer fixed-price contracts?',
@@ -397,7 +391,7 @@ export const faqs4Data: FAQsProps = {
         },
         {
           title: 'What is the typical timeline for completing a construction project?',
-          description: `The timeline for completing a construction project can vary depending on the size and complexity of the project. Outline Designs will provide you with a project timeline during the initial consultation, taking into account factors such as design development, permitting, procurement, and construction duration.`,
+          description: `The timeline for completing a construction project can vary depending on the size and complexity of the project. Outline Designs will provide you with a project timeline during the initial consultation, taking into account factors such as design development, permitting, procurement and construction duration.`,
         },
       ],
     },
@@ -409,13 +403,11 @@ export const faqs4Data: FAQsProps = {
       items: [
         {
           title: 'How does the collaboration process work with Outline Designs?',
-          description: `At Outline Designs, we follow a collaborative approach throughout the design and construction process. We will involve you in key decision-making stages, seek your input and feedback, and keep you updated on the progress
-
- of your project. Our goal is to ensure that your vision is translated into a successful construction project.`,
+          description: `At Outline Designs, we follow a collaborative approach throughout the design and construction process. We will involve you in key decision-making stages, seek your input and feedback and keep you updated on the progress of your project. Our goal is to ensure that your vision is translated into a successful construction project.`,
         },
         {
           title: 'What support does Outline Designs provide during the construction phase?',
-          description: `During the construction phase, Outline Designs provides on-site supervision and project management to ensure that the construction is carried out according to the approved design and specifications. We will also coordinate with contractors and suppliers, conduct regular inspections, and address any issues that may arise.`,
+          description: `During the construction phase, Outline Designs provides on-site supervision and project management to ensure that the construction is carried out according to the approved design and specifications. We will also coordinate with contractors and suppliers, conduct regular inspections and address any issues that may arise.`,
         },
         {
           title: 'Does Outline Designs offer post-construction support?',
@@ -443,6 +435,7 @@ export const faqs4Data: FAQsProps = {
 //   },
 // };
 
+// Features Data
 export const featuresData: FeaturesProps = {
   header: {
     title: (
@@ -518,8 +511,7 @@ export const featuresData: FeaturesProps = {
   ],
 };
 
-
-// Feature2 data
+// Features2 Data
 export const featuresData2: FeaturesProps = {
   header: {
     title: 'Support Center',
@@ -553,7 +545,7 @@ export const featuresData2: FeaturesProps = {
   ],
 };
 
-// Feature data 3
+// Features3 Data
 export const featuresData3: FeaturesProps = {
   header: {
     title: 'Services',
@@ -601,8 +593,7 @@ export const featuresData3: FeaturesProps = {
     },
   ],
 };
-
-// Content data
+// Content Data
 export const contentData: ContentProps = {
   header: {
     title: 'Delivering Excellence in Construction',
@@ -636,7 +627,7 @@ export const contentData: ContentProps = {
   isAfterContent: false,
 };
 
-// Content2 data
+// Content2 Data
 export const content2Data: ContentProps = {
   content:
     'We believe in building homes that reflect your style and taste. Our attention to detail and commitment to customer satisfaction sets us apart. Trust Outline Designs Construction to bring your vision to life and create a home that you and your family will cherish for years to come.',
@@ -668,7 +659,7 @@ export const content2Data: ContentProps = {
   isAfterContent: true,
 };
 
-// Steps data
+// Steps Data
 export const stepsData: StepsProps = {
   title: 'Building Your Dream Home: Our Process',
   items: [
@@ -1206,187 +1197,185 @@ export const contact2Data: ContactProps = {
   },
 };
 
-
 // Footer data
 export const footerData: FooterProps = {
   title: 'Outline Designs',
   links: [
-    {
-      label: 'Terms & Conditions',
-      href: '/terms',
-    },
-    {
-      label: 'Privacy Policy',
-      href: '/privacy',
-    },
+  {
+  label: 'Terms & Conditions',
+  href: '/terms',
+  },
+  {
+  label: 'Privacy Policy',
+  href: '/privacy',
+  },
   ],
   columns: [
-    {
-      title: 'Product',
-      links: [
-        {
-          label: 'Features',
-          href: '/',
-        },
-        {
-          label: 'Security',
-          href: '/',
-        },
-        {
-          label: 'Team',
-          href: '/',
-        },
-        {
-          label: 'Enterprise',
-          href: '/',
-        },
-        {
-          label: 'Customer stories',
-          href: '/',
-        },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'Resources',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        {
-          label: 'Developer API',
-          href: '/',
-        },
-        {
-          label: 'Partners',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        {
-          label: 'Docs',
-          href: '/',
-        },
-        {
-          label: 'Community Forum',
-          href: '/',
-        },
-        {
-          label: 'Professional Services',
-          href: '/',
-        },
-        {
-          label: 'Skills',
-          href: '/',
-        },
-        {
-          label: 'Status',
-          href: '/',
-        },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        {
-          label: 'About',
-          href: '/',
-        },
-        {
-          label: 'Blog',
-          href: '/blog',
-        },
-        {
-          label: 'Careers',
-          href: '/',
-        },
-        {
-          label: 'Press',
-          href: '/',
-        },
-        {
-          label: 'Inclusion',
-          href: '/',
-        },
-        {
-          label: 'Social Impact',
-          href: '/',
-        },
-        {
-          label: 'Shop',
-          href: '/',
-        },
-      ],
-    },
-  ],
-  socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
-  ],
-  footNote: (
-    <div className="mr-4 text-sm dark:text-slate-400">
-      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
-        {' '}
-        onWidget
-      </a>{' '}
-      · All rights reserved.
-    </div>
-  ),
-};
-
-// Footer2 data
-export const footerData2: FooterProps = {
+  {
+  title: 'Product',
   links: [
-    {
-      label: 'Terms & Conditions',
-      href: '/terms',
-    },
-    {
-      label: 'Privacy Policy',
-      href: '/privacy',
-    },
+  {
+  label: 'Features',
+  href: '/',
+  },
+  {
+  label: 'Security',
+  href: '/',
+  },
+  {
+  label: 'Team',
+  href: '/',
+  },
+  {
+  label: 'Enterprise',
+  href: '/',
+  },
+  {
+  label: 'Customer stories',
+  href: '/',
+  },
+  {
+  label: 'Pricing',
+  href: '/pricing',
+  },
+  {
+  label: 'Resources',
+  href: '/',
+  },
   ],
-  columns: [
-    {
-      title: 'Address',
-      texts: ['Nairobi Kenya'],
-    },
-    {
-      title: 'Contact',
-      texts: ['Mobile: +254 718 275 068', 'Phone: +254 797 777 169', 'Email: outlinedesignsltd@gmail.com'],
-    },
-    {
-      title: 'Email',
-      texts: ['Office: outlinedesignsltd@gmail.com', 'Site: https://outlinedesigns.co.ke'],
-    },
+  },
+  {
+  title: 'Platform',
+  links: [
+  {
+  label: 'Developer API',
+  href: '/',
+  },
+  {
+  label: 'Partners',
+  href: '/',
+  },
+  ],
+  },
+  {
+  title: 'Support',
+  links: [
+  {
+  label: 'Docs',
+  href: '/',
+  },
+  {
+  label: 'Community Forum',
+  href: '/',
+  },
+  {
+  label: 'Professional Services',
+  href: '/',
+  },
+  {
+  label: 'Skills',
+  href: '/',
+  },
+  {
+  label: 'Status',
+  href: '/',
+  },
+  ],
+  },
+  {
+  title: 'Company',
+  links: [
+  {
+  label: 'About',
+  href: '/',
+  },
+  {
+  label: 'Blog',
+  href: '/blog',
+  },
+  {
+  label: 'Careers',
+  href: '/',
+  },
+  {
+  label: 'Press',
+  href: '/',
+  },
+  {
+  label: 'Inclusion',
+  href: '/',
+  },
+  {
+  label: 'Social Impact',
+  href: '/',
+  },
+  {
+  label: 'Shop',
+  href: '/',
+  },
+  ],
+  },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+  { label: 'Twitter', icon: IconBrandTwitter, href: 'https://twitter.com/outlinedesigns' },
+  { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/outlinedesigns/' },
+  { label: 'Facebook', icon: IconBrandFacebook, href: 'https://www.facebook.com/outlinedesigns' },
+  { label: 'RSS', icon: IconRss, href: '#' },
+  { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
-    <div className="mr-4 text-sm dark:text-slate-400">
-      <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://outlinedesigns.co.ke">
-        outlineDesigns
-      </a>{' '}
-      · All rights reserved.
-    </div>
+  <div className="mr-4 text-sm dark:text-slate-400">
+  <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
+  Made by{' '}
+  <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://outlinedesigns.co.ke">
+  Outline Designs
+  </a>{' '}
+  · All rights reserved.
+  </div>
   ),
-};
+  };
+  
+  // Footer2 data
+  export const footerData2: FooterProps = {
+  links: [
+  {
+  label: 'Terms & Conditions',
+  href: '/terms',
+  },
+  {
+  label: 'Privacy Policy',
+  href: '/privacy',
+  },
+  ],
+  columns: [
+  {
+  title: 'Address',
+  texts: ['Nairobi Kenya'],
+  },
+  {
+  title: 'Contact',
+  texts: ['Mobile: +254 718 275 068', 'Phone: +254 797 777 169', 'Email: outlinedesignsltd@gmail.com'],
+  },
+  {
+  title: 'Email',
+  texts: ['Office: outlinedesignsltd@gmail.com', 'Site: https://outlinedesigns.co.ke'],
+  },
+  ],
+  socials: [
+  { label: 'Twitter', icon: IconBrandTwitter, href: 'https://twitter.com/outlinedesigns' },
+  { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/outlinedesigns/' },
+  { label: 'Facebook', icon: IconBrandFacebook, href: 'https://www.facebook.com/outlinedesigns' },
+  { label: 'RSS', icon: IconRss, href: '#' },
+  { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+  ],
+  footNote: (
+  <div className="mr-4 text-sm dark:text-slate-400">
+  {/* <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span> */}
+  Made by{' '}
+  <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://outlinedesigns.co.ke">
+  Outline Designs
+  </a>{' '}
+  · All rights reserved.
+  </div>
+  ),
+  };
